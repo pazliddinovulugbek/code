@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.sidebar {
+    width: 25%;
+    /* view portheight */
+    height: 100vh;
+    background-color: gray;
+    padding: 30px;
+
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+
+}
+.sidebar ul{
+    /* border: 2px solid white; */
+    list-style: none;
+
+}
+.sidebar  li a {
+    text-decoration: none;
+    /* border: 2px solid white; */
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.sidebar ul li a:hover{
+    color: black;
+}
+.active{
+    color: red !important;
+}
+
+
